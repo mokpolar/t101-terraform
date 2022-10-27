@@ -1,3 +1,6 @@
+# stdout of week2 homework
+
+
 ```bash
 terraform plan && terraform apply -auto-approve
 
