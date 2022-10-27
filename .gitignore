@@ -1,0 +1,4 @@
+terraform-provider-aws_v4.36.1_x5
+.terraform.lock.hcl
+.terraform
+terraform.tfstate
