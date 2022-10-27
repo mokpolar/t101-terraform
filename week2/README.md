@@ -1,6 +1,9 @@
 # stdout of week2 homework
 
 
+![img](./img.png)
+
+
 ```bash
 terraform plan && terraform apply -auto-approve
 
