@@ -18,11 +18,6 @@ output "vpc_cidr_block" {
   value       = module.vpc.vpc_cidr_block
 }
 
-output "vpc_secondary_cidr_blocks" {
-  description = "The Secondary cidr blocks to associate with the vpc to extend the ip address pool"
-  value       = module.vpc.vpc_secondary_cidr_blocks
-}
-
 output "public_route_table_ids" {
   description = "The list of public route table ids"
   value       = module.vpc.public_route_table_ids

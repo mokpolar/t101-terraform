@@ -9,15 +9,10 @@ module "vpc" {
 
   name                  = "${var.vpc_name}-vpc"
   cidr                  = var.vpc_cidr_block
-  secondary_cidr_blocks = var.secondary_cidr_blocks
 
   azs              = var.azs
   public_subnets   = var.public_subnets
   private_subnets  = var.private_subnets
-
-  create_database_subnet_group           = false
-  create_database_subnet_route_table     = false
-  create_database_internet_gateway_route = false
 
   manage_default_route_table = true
   default_route_table_tags   = { default_route_table = true }
